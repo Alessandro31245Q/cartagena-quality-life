@@ -23,7 +23,7 @@ Una aplicación web interactiva para explorar y analizar datos de calidad de vid
 El dataset incluye información sobre:
 - **NOMBRE**: Nombre de la localidad
 - **LOC**: Código de localidad
-- **Año**: Año de los datos (2020-2021)
+- **Año**: Año de los datos (2020-2023)
 - **Tema**: Categoría de análisis (Educación)
 - **M_Prees**: Matrícula en preescolar
 - **M_Prim**: Matrícula en primaria
@@ -39,7 +39,7 @@ El dataset incluye información sobre:
 - Zoom y navegación fluida
 
 ### Panel de Filtros
-- Selector de año (2020-2021)
+- Selector de año (2020-2023)
 - Selector de tema (Educación)
 - Selector de métrica educativa
 - Buscador de localidades por nombre
@@ -56,30 +56,6 @@ El dataset incluye información sobre:
 - Reflexión crítica sobre el uso de visualizaciones
 - Información técnica de implementación
 
-## 🚀 Instalación y Uso
-
-1. **Clonar el repositorio**
-   \`\`\`bash
-   git clone [repository-url]
-   cd cartagena-quality-life
-   \`\`\`
-
-2. **Instalar dependencias**
-   \`\`\`bash
-   npm install
-   \`\`\`
-
-3. **Agregar datos GeoJSON**
-   - Colocar el archivo \`educacion_cartagena.geojson\` en la carpeta \`public/\`
-   - Actualizar la ruta en \`app/api/geojson-data/route.ts\`
-
-4. **Ejecutar en desarrollo**
-   \`\`\`bash
-   npm run dev
-   \`\`\`
-
-5. **Abrir en el navegador**
-   - Navegar a \`http://localhost:3000\`
 
 ## 📁 Estructura del Proyecto
 
@@ -103,7 +79,8 @@ El dataset incluye información sobre:
 ## 🎨 Prompt Empleado
 
 **Prompt Principal:**
-"Desarrollar una aplicación web interactiva que permita visualizar y explorar datos de calidad de vida en Cartagena usando Next.js, react-leaflet para mapas interactivos, y Recharts para gráficos dinámicos. La aplicación debe incluir filtros por año, tema y localidad, mostrar estadísticas descriptivas, y proporcionar documentación completa sobre el origen y estructura de los datos."
+"Desarrollar una aplicación web interactiva completa para visualizar y analizar datos de calidad de vida educativa en Cartagena usando Next.js 14 con App Router, react-leaflet para mapas interactivos geoespaciales, y Recharts para gráficos analíticos dinámicos. La aplicación debe procesar datos GeoJSON con información educativa por localidades, incluir un sistema de filtros multidimensionales (año, tema, zona, localidad, género, tipo de institución), generar estadísticas descriptivas avanzadas, comparaciones temporales y geográficas, y proporcionar documentación técnica completa sobre el origen, estructura y metodología de análisis de los datos."
+
 
 **Características Específicas Solicitadas:**
 - Mapa interactivo con polígonos coloreados según variables
@@ -120,7 +97,7 @@ Los datos provienen del portal de datos abiertos de **Cartagena Cómo Vamos**:
 - **URL**: https://ccv-cgenacomovamos.opendata.arcgis.com
 - **Formato**: GeoJSON con geometrías de polígonos
 - **Cobertura**: Localidades de Cartagena
-- **Período**: 2020-2021
+- **Período**: 2020-2023
 - **Tema**: Educación (matrícula por niveles)
 
 ## 🔍 Análisis Disponibles
@@ -168,24 +145,7 @@ Esta herramienta permite a tomadores de decisiones:
 
 ## 🚀 Despliegue
 
-La aplicación está optimizada para despliegue en **Vercel**:
-
-1. **Conectar repositorio a Vercel**
-2. **Configurar variables de entorno** (si es necesario)
-3. **Desplegar automáticamente** desde la rama principal
 
 ## 📝 Licencia
 
 Este proyecto está desarrollado con fines educativos y de transparencia pública. Los datos pertenecen a Cartagena Cómo Vamos.
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el repositorio
-2. Crear una rama para la nueva funcionalidad
-3. Realizar commit de los cambios
-4. Enviar pull request
-
-## 📞 Contacto
-
-Para preguntas sobre los datos o la metodología, contactar a Cartagena Cómo Vamos a través de su portal oficial.
