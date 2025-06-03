@@ -146,7 +146,7 @@ Esta herramienta permite a tomadores de decisiones:
 
 ## 🚀 Despliegue
 
-https://cartagena-quality-life.vercel.app/ 
+https://cartagena-quality-life-inky.vercel.app/
 
 ## 📝 Licencia
 
