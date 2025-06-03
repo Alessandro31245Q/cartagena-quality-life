@@ -61,7 +61,7 @@ El dataset incluye información sobre:
 
 \`\`\`
 ├── app/
-│   ├── page.tsx                 # Página principal
+│   ├── page.tsx                 # Página principalAdd commentMore actions
 │   └── api/
 │       └── geojson-data/
 │           └── route.ts         # API para cargar datos GeoJSON
@@ -75,6 +75,8 @@ El dataset incluye información sobre:
 │   └── educacion_cartagena.geojson # Datos geoespaciales
 └── README.md
 \`\`\`
+
+
 
 ## 🎨 Prompt Empleado
 
