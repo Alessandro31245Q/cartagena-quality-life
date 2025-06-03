@@ -59,6 +59,7 @@ El dataset incluye información sobre:
 
 ## 📁 Estructura del Proyecto
 
+```bash
 ├── app/
 │   ├── page.tsx
 │   └── api/
@@ -73,6 +74,7 @@ El dataset incluye información sobre:
 ├── public/
 │   └── educacion_cartagena.geojson
 └── README.md
+```
 
 
 ## 🎨 Prompt Empleado
