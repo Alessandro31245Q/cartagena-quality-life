@@ -59,23 +59,20 @@ El dataset incluye información sobre:
 
 ## 📁 Estructura del Proyecto
 
-\`\`\`
 ├── app/
-│   ├── page.tsx                 # Página principalAdd commentMore actions
+│   ├── page.tsx
 │   └── api/
 │       └── geojson-data/
-│           └── route.ts         # API para cargar datos GeoJSON
+│           └── route.ts
 ├── components/
-│   ├── filter-panel.tsx        # Panel de filtros
-│   ├── map-component.tsx       # Componente del mapa
-│   ├── charts-panel.tsx        # Panel de gráficos
-│   ├── stats-panel.tsx         # Panel de estadísticas
-│   └── documentation-panel.tsx # Panel de documentación
+│   ├── filter-panel.tsx
+│   ├── map-component.tsx
+│   ├── charts-panel.tsx
+│   ├── stats-panel.tsx
+│   └── documentation-panel.tsx
 ├── public/
-│   └── educacion_cartagena.geojson # Datos geoespaciales
+│   └── educacion_cartagena.geojson
 └── README.md
-\`\`\`
-
 
 
 ## 🎨 Prompt Empleado
